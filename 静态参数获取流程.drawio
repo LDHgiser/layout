@@ -1,1 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2022-04-24T08:29:43.798Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" version="17.4.0" etag="E5G62oJ_Nj-3cU53KcqP" type="github"><diagram id="bvHdeCeMu6wJYqsT2Nep">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-05T02:23:06.459Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="JChbIbUwGkBiRRGvaQeg" version="17.4.0" type="github">
+  <diagram id="bvHdeCeMu6wJYqsT2Nep" name="Page-1">
+    <mxGraphModel dx="1385" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YGLuallN62k_ut8VDqtA-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YGLuallN62k_ut8VDqtA-1" target="YGLuallN62k_ut8VDqtA-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YGLuallN62k_ut8VDqtA-1" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="50" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YGLuallN62k_ut8VDqtA-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YGLuallN62k_ut8VDqtA-6" target="YGLuallN62k_ut8VDqtA-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YGLuallN62k_ut8VDqtA-6" value="获取当前job名称，遍历参数列表，&lt;b&gt;i&lt;/b&gt; = 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="120" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YGLuallN62k_ut8VDqtA-13" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YGLuallN62k_ut8VDqtA-10" target="YGLuallN62k_ut8VDqtA-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YGLuallN62k_ut8VDqtA-18" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YGLuallN62k_ut8VDqtA-10" target="YGLuallN62k_ut8VDqtA-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YGLuallN62k_ut8VDqtA-10" value="匹配成功&lt;br&gt;Jobname?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="290" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YGLuallN62k_ut8VDqtA-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YGLuallN62k_ut8VDqtA-12" target="YGLuallN62k_ut8VDqtA-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YGLuallN62k_ut8VDqtA-12" value="获取对应模块信息以及其它信息" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YGLuallN62k_ut8VDqtA-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YGLuallN62k_ut8VDqtA-14" target="YGLuallN62k_ut8VDqtA-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YGLuallN62k_ut8VDqtA-14" value="取至构建列表第&amp;nbsp;&lt;b&gt;i&amp;nbsp;&lt;/b&gt;个数据" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YGLuallN62k_ut8VDqtA-17" value="&lt;b&gt;i ++&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YGLuallN62k_ut8VDqtA-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.992;entryY=0.633;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YGLuallN62k_ut8VDqtA-17" target="YGLuallN62k_ut8VDqtA-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="300" as="sourcePoint" />
+            <mxPoint x="440" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="238" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YGLuallN62k_ut8VDqtA-25" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="500" width="110" height="45" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
